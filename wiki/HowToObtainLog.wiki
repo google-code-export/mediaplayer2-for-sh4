@@ -1,6 +1,6 @@
 ===If its critical error (Green screen) and you have mounted hdd===
 
-You can obtain log in directory _/media/hdd_ in format _enigma2_crash_xxxxxxxxxx.log_. There can be more of them, send me the last created.
+You can obtain log in directory _/media/hdd_ in format _enigma2_crash_xxxxxxxxxx.log_. There can be more of them, send me the most recently created.
 
 ===If its not an critical error, or you dont have mounted hdd, you can create log like this===
 
