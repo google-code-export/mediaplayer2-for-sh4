@@ -1,0 +1,39 @@
+<keymap>
+	<map context="MoviePlayerActions">
+		<key id="KEY_TV" mapto="leavePlayer" flags="m" />
+		<key id="KEY_STOP" mapto="leavePlayer" flags="m" />
+		<key id="KEY_EXIT" mapto="leavePlayer" flags="m" />
+		<key id="KEY_GREEN" mapto="aspectChange" flags="m" />
+		<key id="KEY_AUDIO" mapto="audioSelection" flags="m" />
+	</map>	
+
+	<map context="MediaPlayerActions">
+		<key id="KEY_INFO" mapto="csfd" flags="m" />
+		<key id="KEY_ZOOM" mapto="aspectratio" flags="m" />
+		<key id="KEY_5" mapto="aspectratio" flags="m" />
+		<key id="KEY_YELLOW" mapto="pause" flags="m" />
+		<key id="KEY_GREEN" mapto="play" flags="m" />
+		<key id="KEY_PREVIOUS" mapto="previous" flags="m" />
+		<key id="KEY_NEXT" mapto="next" flags="m" />
+		<key id="KEY_PLAYPAUSE" mapto="pause" flags="m" />
+		<key id="KEY_PLAY" mapto="pause" flags="m" />
+		<key id="KEY_EXIT" mapto="stop" flags="b" />
+		<key id="KEY_STOP" mapto="stop" flags="b" />
+		<key id="KEY_STOP" mapto="shift_stop" flags="l" />
+		<key id="KEY_RECORD" mapto="shift_record" flags="l" />
+		<key id="KEY_PREVIOUS" mapto="previous" flags="m" />
+		<key id="KEY_NEXT" mapto="next" flags="m" />
+		<key id="KEY_RED" mapto="previous" flags="m" />
+		<key id="KEY_BLUE" mapto="next" flags="m" />
+		<key id="KEY_PAUSE" mapto="pause" flags="m" />
+		<key id="KEY_PLAY" mapto="play" flags="m" />
+		<key id="KEY_MENU" mapto="menu" flags="m" />
+		<key id="KEY_2" mapto="skipListbegin" flags="m" />
+		<key id="KEY_8" mapto="skipListend" flags="m" />
+		<key id="KEY_CHANNELUP" mapto="nextBouquet" flags="m" />
+		<key id="KEY_CHANNELDOWN" mapto="prevBouquet" flags="m" />
+		<key id="KEY_VIDEO" mapto="delete" flags="m" />
+		<key id="KEY_SUBTITLE" mapto="subtitles" flags="m" />
+		<key id="KEY_TEXT" mapto="subtitles" flags="m" />
+	</map>
+</keymap>
