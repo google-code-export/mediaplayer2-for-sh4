@@ -34,5 +34,6 @@
 		<key id="KEY_VIDEO" mapto="delete" flags="m" />
 		<key id="KEY_SUBTITLE" mapto="subtitles" flags="m" />
 		<key id="KEY_TEXT" mapto="subtitles" flags="m" />
+		<key id="KEY_AUDIO" mapto="audioSelection" flags="m" />
 	</map>
 </keymap>
