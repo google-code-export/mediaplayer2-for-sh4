@@ -55,7 +55,7 @@ from . import _
 PLUGIN_NAME = 'mediaplayer2'
 
 #set debug mode
-DEBUG = True
+DEBUG = False
 
 # set supported encodings, you have to make sure, that you have corresponding python
 # libraries in %PYTHON_PATH%/encodings/ (ie. iso-8859-2 requires iso_8859_2.py library)
@@ -354,7 +354,7 @@ class SubsSupport(object):
             self.__subsScreen = None
         
         self.__subsDict = None
-        self.__start_timer = None
+        self.__starTimer = None
         
         subtitles_settings.showSubtitles.setValue(True)
         subtitles_settings.showSubtitles.save()
@@ -479,8 +479,6 @@ class SubsSupport(object):
 ############################################################  
         
         
-        
-    
 
 class SubsScreen(Screen):
         

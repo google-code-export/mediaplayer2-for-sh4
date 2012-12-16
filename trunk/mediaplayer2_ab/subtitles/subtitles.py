@@ -354,7 +354,7 @@ class SubsSupport(object):
             self.__subsScreen = None
         
         self.__subsDict = None
-        self.__start_timer = None
+        self.__starTimer = None
         
         subtitles_settings.showSubtitles.setValue(True)
         subtitles_settings.showSubtitles.save()
@@ -479,8 +479,6 @@ class SubsSupport(object):
 ############################################################  
         
         
-        
-    
 
 class SubsScreen(Screen):
         
