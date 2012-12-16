@@ -1028,7 +1028,7 @@ class MediaPlayer(Screen, InfoBarBase, InfoBarSeek, InfoBarAudioSelection, InfoB
 					self.clear_playlist()
 
 
-class MoviePlayer(InfoBarShowHide,SubsSupport, \
+class MoviePlayer(InfoBarShowHide, SubsSupport, \
 		InfoBarSeek, InfoBarAudioSelection, HelpableScreen, InfoBarNotifications,
 		InfoBarServiceNotifications, InfoBarPVRState, InfoBarCueSheetSupport, InfoBarSimpleEventView,
 		InfoBarMoviePlayerSummarySupport, Screen, InfoBarTeletextPlugin,
@@ -1058,9 +1058,16 @@ class MoviePlayer(InfoBarShowHide,SubsSupport, \
 				InfoBarSeek, \
 				InfoBarAudioSelection, InfoBarNotifications, InfoBarSimpleEventView, \
 				InfoBarServiceNotifications, InfoBarPVRState, InfoBarCueSheetSupport, \
-				InfoBarMoviePlayerSummarySupport,SubsSupport, \
+				InfoBarMoviePlayerSummarySupport, SubsSupport, \
 				InfoBarTeletextPlugin, InfoBarServiceErrorPopupSupport:
 			x.__init__(self)
+		
+		self.resetSubs(True)
+		if os.path.isdir(os.path.dirname(service.getPath())):
+			self.__subsDir = os.path.dirname(service.getPath())
+			subPath = os.path.splitext(service.getPath())[0] + '.srt'
+			if os.path.isfile(subPath):
+				self.loadSubs(subPath)
 			
 		self.session.nav.playService(service)
 		self.returning = False
