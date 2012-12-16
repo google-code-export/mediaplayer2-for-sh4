@@ -630,9 +630,8 @@ class SubsEngine(object):
             else:
                 self.show()
         else:
-            # if subtitle should be showed 2 seconds or more ago then skip subtitle
-            if self.actsub['start'] - self.playPts < -180000:
-                debug('%s < -180000(2sec), skipping' % str(self.actsub['start'] - self.playPts))
+            if self.actsub['end'] - self.playPts < 0:
+                debug('%s < 0, skipping' % str(self.actsub['end'] - self.playPts))
                 self.skipSubtitle()
             else:
                 self.show()
