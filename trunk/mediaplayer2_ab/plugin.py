@@ -878,6 +878,12 @@ class MediaPlayer(Screen, InfoBarBase, SubsSupport, InfoBarSeek, InfoBarAudioSel
 			needsInfoUpdate = False
 			currref = self.playlist.getServiceRefList()[self.playlist.getCurrentIndex()]
 			if self.session.nav.getCurrentlyPlayingServiceReference() is None or currref != self.session.nav.getCurrentlyPlayingServiceReference():
+				self.resetSubs(True)
+				if os.path.isdir(os.path.dirname(currref.getPath())):
+					self.__subsDir = os.path.dirname(currref.getPath())
+					subPath = os.path.splitext(currref.getPath())[0] + '.srt'
+					if os.path.isfile(subPath):
+						self.loadSubs(subPath)
 				self.session.nav.playService(self.playlist.getServiceRefList()[self.playlist.getCurrentIndex()])
 				info = eServiceCenter.getInstance().info(currref)
 				description = info and info.getInfoString(currref, iServiceInformation.sDescription) or ""
