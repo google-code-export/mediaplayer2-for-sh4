@@ -130,7 +130,7 @@ subtitles_settings.encodingsGroup = ConfigSelection(default=_("Central and Easte
 choicelist = []
 for f in FONT.keys():
     choicelist.append(f)
-subtitles_settings.fontType = ConfigSelection(default="Default", choices=choicelist)
+subtitles_settings.fontType = ConfigSelection(default="Ubuntu", choices=choicelist)
 
 choicelist = []
 for i in range(10, 60, 1):
