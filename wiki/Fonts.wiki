@@ -1,5 +1,4 @@
 ==How to add fonts==
-----
 
   # Copy your fonts (*Truetype format - ttf*) to _PLUGINS_PATH/Extensions/Mediaplayer2/subtitles/fonts_
   # Rename your fonts to format: 
@@ -9,5 +8,6 @@
   # Restart Enigma2
   # Choose your fonts from subtitles menu in Mediaplayer2
 
+----
 ==How to obtain fonts==
-Google is your friend, you can try "free fonts ttf", to make sure that font you are looking for will be able to show all characters "free fonts ttf unicode"
+Google is your friend you can try combinations of keywords like [*free font ttf truetype unicode*]
