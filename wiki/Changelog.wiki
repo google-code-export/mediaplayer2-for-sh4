@@ -1,63 +1,61 @@
-#Changelog
-
 = v0.40 =
-* added support for whole plugin translation
-* added support for color tags (issue #11)
-* added support for all video modes (issue #13)
-* added turkish encodings group (issue #14)
-* added hotkey[TV] to refresh subtitles position
-* reworked subtitles engine, hopefully no more dissapeared subtitles(issue #14)
-* added experimental support for row parsing/rendering (issue #11 partially, arabic, turkish encodings dont work correctly).
+ * added support for whole plugin translation
+ * added support for color tags (issue #11)
+ * added support for all video modes (issue #13)
+ * added turkish encodings group (issue #14)
+ * added hotkey[TV] to refresh subtitles position
+ * reworked subtitles engine, hopefully no more dissapeared subtitles(issue #14)
+ * added experimental support for row parsing/rendering (issue #11 partially, arabic, turkish encodings dont work correctly).
 
 = v0.38 =
-* added posibility to add custom fonts
-* added posibility to change shadow options
-* fixed GS in older enigma2 versions (eLabel without border param)
-* fixed GS when using default e2 subtitle selection
+ * added posibility to add custom fonts
+ * added posibility to change shadow options
+ * fixed GS in older enigma2 versions (eLabel without border param)
+ * fixed GS when using default e2 subtitle selection
 
 = v0.37 =
-* based on latest openpli mediaplayer
-* added arabic encodings group
-* added polish translation by hosunio@tlen.pl
-* added hotkey[right/left] for quick change of subtitles timing
-* added status messages - change of aspect ratio, subtitles delay
-* improved subtitles appearence
-* posibility to add custom colors in colors.txt
-* fixed package name - possible to uninstall plugin from GUI
-* more tolerant srt parser
-* show info in CSFD plugin also from playlist entries
+ * based on latest openpli mediaplayer
+ * added arabic encodings group
+ * added polish translation by hosunio@tlen.pl
+ * added hotkey[right/left] for quick change of subtitles timing
+ * added status messages - change of aspect ratio, subtitles delay
+ * improved subtitles appearence
+ * posibility to add custom colors in colors.txt
+ * fixed package name - possible to uninstall plugin from GUI
+ * more tolerant srt parser
+ * show info in CSFD plugin also from playlist entries
 
 = v0.35 =
-* subtitles are now preloaded before video starts playing, so we dont miss any subtitles
-* fixed dynamic change of encodings- thx petrkl12
-* fixed synchronization issue when seeking back
-* fixed deadlock when starting subtitles on some images with gstreamer(mipsel,misp32el)
-* fixed issue when ubuntu font was set and then manually deleted
-* added keymap for key_audio, to override default keymap of e2
-* created only version with ubuntu fonts, you can delete them manually
-* default font is set to ubuntu-> can show Italics/Bold, supports unicode set of characters
-* optimized sub engine
+ * subtitles are now preloaded before video starts playing, so we dont miss any subtitles
+ * fixed dynamic change of encodings- thx petrkl12
+ * fixed synchronization issue when seeking back
+ * fixed deadlock when starting subtitles on some images with  gstreamer(mipsel,misp32el)
+ * fixed issue when ubuntu font was set and then manually deleted
+ * added keymap for key_audio, to override default keymap of e2
+ * created only version with ubuntu fonts, you can delete them manually
+ * default font is set to ubuntu-> can show Italics/Bold, supports unicode set of  characters
+ * optimized sub engine
 
 = v0.30 =
-* fixed OE2.0 installation
-* its possible to use another fonts
-* added Ubuntu font
-* supports tags in Ubuntu and another compatible fonts
-* added posibility to change encoding groups
-* added russian, western europe and central and eastern europe encoding groups
-* added needed libraries to support encoding
-* added posibility to change dynamically encoding in encoding group while playing
-* fixed some not very common situations, added error messages
-* fixed issue1 :"Green screen when pressing STOP"
+ * fixed OE2.0 installation
+ * its possible to use another fonts
+ * added Ubuntu font
+ * supports tags in Ubuntu and another compatible fonts
+ * added posibility to change encoding groups
+ * added russian, western europe and central and eastern europe encoding groups
+ * added needed libraries to support encoding
+ * added posibility to change dynamically encoding in encoding group while playing
+ * fixed some not very common situations, added error messages
+ * fixed issue1 :"Green screen when pressing STOP"
 
 = v0.22 =
-* added support for mipsel OE2.0 images
-* fixed MediaPlayerSettings screen -thx shamann, cz-ufon
+ * added support for mipsel OE2.0 images
+ * fixed MediaPlayerSettings screen -thx shamann, cz-ufon
 
 = v0.21 =
-* better csfd search on files
-* separated config from standard Media Player - resolved some issues(mipsel now working)
-* added posibility to set as default Media Player
+ * better csfd search on files
+ * separated config from standard Media Player - resolved some issues(mipsel now working)
+ * added posibility to set as default Media Player
 
 = v0.11 =
-* initial version, without choosing external subs,csfd - ipk created by michal47 
+ * initial version, without choosing external subs,csfd - ipk created by michal47 
