@@ -3,7 +3,7 @@
  * added support for color tags (issue #11)
  * added support for all video modes (issue #13)
  * added turkish encodings group (issue #14)
- * added hotkey[TV] to refresh subtitles position
+ * added hotkey\[TV\] to refresh subtitles position
  * reworked subtitles engine, hopefully no more dissapeared subtitles(issue #14)
  * added experimental support for row parsing/rendering (issue #11 partially, arabic, turkish encodings dont work correctly).
 
