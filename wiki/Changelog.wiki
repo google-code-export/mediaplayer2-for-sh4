@@ -1,3 +1,10 @@
+= v0.41 =
+ * added greek encodings group (issue #16)
+ * fixed subtitles dissapearence after dvb subtitles were played (issue #14)
+ * fixed subtitles flickering, when subtitles follow in quick succession
+ * improved precision of subtitles engine (<50ms)
+ * last subtitle in subtitle-list is now shown
+
 = v0.40 =
  * added support for whole plugin translation
  * added support for color tags (issue #11)
