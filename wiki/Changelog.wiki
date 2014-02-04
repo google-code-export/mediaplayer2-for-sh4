@@ -1,3 +1,11 @@
+= v0.45 =
+ * added support for embedded(muxed) subtitles (issue #6)
+ * added settings for embedded subtitles(only where QuickSubtitlesConfigMenu is available - should be in Openpli based images)
+ * simplified loading of subtitles
+ * added expert menu(no need to change anything, only for experiments)
+ * added reset defaults in subtitles settings
+ * added option to turn off subtitles
+
 = v0.41 =
  * added greek encodings group (issue #16)
  * fixed subtitles dissapearence after dvb subtitles were played (issue #14)
