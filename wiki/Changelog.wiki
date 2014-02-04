@@ -1,6 +1,6 @@
 = v0.45 =
  * added support for embedded(muxed) subtitles (issue #6)
- * added settings for embedded subtitles(only where QuickSubtitlesConfigMenu is available - should be in Openpli based images)
+ * added settings for embedded subtitles(only where QuickSubtitlesConfigMenu is available  -> should be in Openpli based images)
  * simplified loading of subtitles
  * added expert menu(no need to change anything, only for experiments)
  * added reset defaults in subtitles settings
