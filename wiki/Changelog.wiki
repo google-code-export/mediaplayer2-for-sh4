@@ -1,6 +1,6 @@
 = v0.50 =
  * fixed srt parsing(null chars)
- * added search subtitles option(experimental) based on https://github.com/amet/script.xbmc.subtitles project, for now are supported only [www.titulky.com titulkycom](cs,sk), [www.edna.cz Edna.cz](cs,sk) and [opensubtitles.org OpenSubtitles](multi lang) services are now supported. If there is interest in more services please let me know..
+ * added search subtitles option(experimental) based on https://github.com/amet/script.xbmc.subtitles project, for now are supported only TitulkyCom (cs,sk), Edna.cz (cs,sk) and OpenSUbtitles (multi lang) services are now supported. If there is interest in more services please let me know..
 
 = v0.46 =
  * fixed GS on VTI and other non-pli images (0.45 version) (issue #21, issue#22, issue#24)
