@@ -7,7 +7,7 @@
  * added setting "Hide infobar and close" - when set,  it closes infobar if shown and calls exit action, instead of closing only infobar
  * when on movie file in filelist and xplayentry(green) is pressed, then clean playlist, add selected file to playlist and play it.
  * added recommends for python codecs
- * used OpenPli MP keymap + modifications for subtitles action
+ * used Openpli MP keymap + modifications for subtitles action
  * sync with latest Openpli MP changes:
    * Mike Looijmans (4 months ago) -> Add digital camera movie path and mimetype to scan list
    * Littlesat (4 months ago) -> Mediaplayer: Add option to always hide Infobar
