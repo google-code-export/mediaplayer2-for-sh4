@@ -10,10 +10,10 @@
  * used OpenPli MP keymap + modifications for subtitles action
  * sync with latest Openpli MP changes:
    * Mike Looijmans (4 months ago) -> Add digital camera movie path and mimetype to scan list
-   * Littlesat (4 months ago) -> MediaPlayer: Add option to always hide InfoBar
-   * Littlesat (4 months ago) -> MediaPlayer: Hide inforbar when menu is shown
+   * Littlesat (4 months ago) -> Mediaplayer: Add option to always hide InfoBar
+   * Littlesat (4 months ago) -> Mediaplayer: Hide inforbar when menu is shown
    * rhinoceros (7 months ago) -> At end of playlist set state to stopped. Also allow playing a stopped entry.
-   * Littlesat (7 months ago) -> MediaPlayer: Strange InfoBar behavior when playing audiofiles
+   * Littlesat (7 months ago) -> Mediaplayer: Strange InfoBar behavior when playing audiofiles
 
 
 == search: ==
