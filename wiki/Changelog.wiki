@@ -1,3 +1,35 @@
+= v0.54 =
+== main: ==
+ * added utf-16 encoding support
+ * fix GS when subtitles list is empty
+ * improve parsing by trying other encodings when subtitles list is empty
+ * fix rare deadlock on subtitles load
+ * added setting "Hide infobar and close" - when set,  it closes infobar if shown and calls exit action, instead of closing only infobar
+ * when on movie file in filelist and xplayentry(green) is pressed, then clean playlist, add selected file to playlist and play it.
+ * added recommends for python codecs
+ * used OpenPli MP keymap + modifications for subtitles action
+ * sync with latest Openpli MP changes:
+   * Mike Looijmans (4 months ago) -> Add digital camera movie path and mimetype to scan list
+   * Littlesat (4 months ago) -> MediaPlayer: Add option to always hide InfoBar
+   * Littlesat (4 months ago) -> MediaPlayer: Hide inforbar when menu is shown
+   * rhinoceros (7 months ago) -> At end of playlist set state to stopped. Also allow playing a stopped entry.
+   * Littlesat (7 months ago) -> MediaPlayer: Strange InfoBar behavior when playing audiofiles
+
+
+== search: ==
+ * improved subtitles search on movie titles
+ * subtitles can be downloaded to the same path as played video
+ * added default sorting option by provider/langs
+ * subtitles are now sorted by provider/langs and then by sync
+ * added flag icons, all images moved to img directory
+ * added subtitles column headers
+ * renamed preferred languages to more readable format
+ * removed size property from list since its not supported by all providers
+ * added subtitles locales(sk,cs)
+ * added recommends for python codecs, zlib
+ * [titulky.com] using working getfilesize function(also for web streams), to find subtitles in sync
+ * [edna.cz] added support for not packed subtitles..
+ 
 = v0.50 =
  * fixed srt parsing(null chars)
  * added search subtitles option(experimental) based on https://github.com/amet/script.xbmc.subtitles project, for now are supported only Titulkycom (cs,sk), Edna.cz (cs,sk) and OpenSubtitles (multi lang) services. If there is interest in more services please let me know..
