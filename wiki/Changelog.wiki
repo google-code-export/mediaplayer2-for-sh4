@@ -1,5 +1,4 @@
 = v0.55 =
-== main: ==
  * subtitles part is separated from mediaplayer2 to independent plugin - subssupport
  * added support for subsupport plugin
  * fixed czech translations by Vlad Kuzba
