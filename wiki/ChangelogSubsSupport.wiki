@@ -1,0 +1,29 @@
+= v1.2.0 =
+
+== main ==
+ * added MicroDVD format support(.sub,.txt)
+ * improved embedded subtitles support for non-pli images - (position, font, color, shadow), thx to Zdenek for testing
+ * fixed czech translations by Vlad Kuzba
+ * fixed bug when changing shadow type, encodings group or parsing/rendering
+ * fixed cancelling modified entries in search settings
+ * fixed language change detection
+
+== search ==
+ * improved efficiency and lookup for valid subtitles
+  * specified search provider type (tv series search, movie search)
+  * fixed hash function
+  * search is possible only when search params are changed from previous search
+  * added simultaneous option to allow/not allow simultaneous search
+  * added manual search option - looks for subtitles only on user action(green)
+  * added advanced search (show and edit detected search parameters(title,movie/series,episode,season, year,providers)
+ * added toggle search expressions(blue button) - filename,dirname..
+ * added provider header in subtitles settings
+ * added progress info while searching
+ * added subscene provider
+ * added podnapisi provider (credentials necessary)
+ * added serialzone provider
+ * fixed detection of compressed subtitles
+ * fixed saving provider's settings
+ * fixed some encoding issues
+ * provider passwords are now hidden
+ * [OpenSubtitles] try to fix ProtocolError 503
