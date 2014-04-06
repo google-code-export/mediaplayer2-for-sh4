@@ -2,7 +2,7 @@
 
 == main ==
  * added MicroDVD format support(.sub,.txt)
- * improved embedded subtitles support for non-pli images - (position, font, color, shadow), thx to Zdenek for testing
+ * improved embedded subtitles support for non-pli images - (position, font, color, shadow), thx to Zdenek for testing, fontsize not working on VTI!
  * fixed czech translations by Vlad Kuzba
  * fixed bug when changing shadow type, encodings group or parsing/rendering
  * fixed cancelling modified entries in search settings
