@@ -1,3 +1,12 @@
+= v0.55 =
+== main: ==
+ * subtitles part is separated from mediaplayer2 to independent plugin - subssupport
+ * added support for subsupport plugin
+ * fixed czech translations by Vlad Kuzba
+ * show mediainfobar on ok button when mediaplayer infobar is not shown
+ * revert some fixes introduced in 0.54 which caused instability on some images
+ 
+
 = v0.54 =
 == main: ==
  * added utf-16 encoding support
