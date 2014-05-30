@@ -7,7 +7,7 @@
 
 == search ==
  * fixed sort providers option
- * fixed preferred languages option(no numerical input, uneditable)
+ * fixed preferred languages option(no numerical input screen, not editable only on ok button)
  * fixed paging on right/left button in subtitles search list
  * added provider timeout option(no more waiting on unresponsive providers)
  * supressed provider's specific debug messages
