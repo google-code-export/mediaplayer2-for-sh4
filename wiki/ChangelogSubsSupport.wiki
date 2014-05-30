@@ -1,3 +1,18 @@
+= v1.2.5 =
+
+== main ==
+ * fixed font size option for embedded subtitles on VTI image
+ * fixed warnings/removal of plugin in Openpli/OpenATV image
+ * fixed GS on subtitles LoadingError
+
+== search ==
+ * fixed sort providers option
+ * fixed preferred languages option(no numerical input, uneditable)
+ * fixed paging on right/left button in subtitles search list
+ * added provider timeout option(no more waiting on unresponsive providers)
+ * supressed provider's specific debug messages
+ * cleanup debug messages
+
 = v1.2.0 =
 
 == main ==
