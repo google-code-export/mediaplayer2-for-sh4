@@ -1,7 +1,7 @@
 = v1.3.0 =
 
 == main ==
- * fixed GS on VTI image, when embedded subtitles are in use
+ * fixed GS on VTI image, when embedded subtitles are in use - thx to Zdenek for report and testing
  * fixed rare GS on close of subtitles search screen
  * improved quality of code(no global settings, safe to use multiple instances of classes in subtitles module at the same time), refactoring
 
