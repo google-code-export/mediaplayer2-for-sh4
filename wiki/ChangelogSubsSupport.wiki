@@ -30,6 +30,7 @@
    * added Always ask for download location - alway ask/not for subtitles download location
    * added Check search params before search - alway open/not open SUBSSEARCHPARAMS screen before subtitles search
      * detecting search parameters from source title(filepath, streampath)is not always reliable, to avoid useless search with wrong parameters is this option enabled by default, so you can see how detection worked and you can correct it before actual search
+   * removed search restriction options
    * renamed some options for better clarification
 
 = v1.3.1 =
