@@ -1,3 +1,36 @@
+= v1.4.0 =
+
+== search ==
+ * improved search engine
+   * UI is more responsive during search, startup could take little longer thought
+   * search is now stoppable, so performance of enigma2 will be not affected after subtitles search exit
+   * all search restrictions during search are removed
+
+ * improved "Update search params" screen:
+   * added simple history list of previously searched subtitles
+   * added suggestions list(opensubtitles suggestions), while typing title
+   * added enable/disable use of video path
+     * this option identifies if we want to provide, subtitles search provider
+        - videopath, since some providers can use this path to detect subtitles in sync. This can be used if we want to download subtitles for entirely different video
+   * added toggle source title(search expression)(blue button)
+
+ * improved "SubsSearch" screen:
+   * no thread counter(top-right corner), since we don't use threads anymore
+   * removed toggle search expression option(this is now in "Update search params screen
+   * show video path search parameter
+   * fixed subtitles list behaviour on repeated right/left/up/down action
+   * optimized rendering of long subtitles list
+   * search button(green)is not blocked anymore during subtitles search
+
+ * improved "SubsSearchSettings" options:
+   * Save as - we can define how do we want to name downloaded subtitles file
+   * Save to - we can define where do we want to download subtitles
+   * Append subtitle's language to filepath - append/not language to subtitles filename
+   * Always ask for download location - alway ask/not for subtitles download location
+   * Check search params before search - alway open/not open SubSearchParams window before subtitles search
+     * detecting search parameters from source title(filepath, streampath)is not always reliable, to avoid useless search with wrong parameters is this option enabled by default, so you can see how detection worked and you can correct it before actual search
+   * renamed some options for better clarification
+
 = v1.3.1 =
 
 == main ==
