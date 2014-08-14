@@ -2,7 +2,7 @@
 
 == search ==
  * improved search engine
-   * UI is more responsive during search, startup could take little longer thought
+   * UI is more responsive during search, startup could take little longer though
    * search is now stoppable, so performance of enigma2 will be not affected after subtitles search exit
    * all search restrictions during search are removed
 
