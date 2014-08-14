@@ -10,7 +10,7 @@
    * added simple history list of previously searched subtitles
    * added suggestions list(opensubtitles suggestions), while typing title
    * added enable/disable use of video path
-     * this option identifies if we want to provide, subtitles search provider videopath, since some providers can use this path to detect subtitles in sync. This can be used if we want to download subtitles for entirely different video
+     * this option identifies if we want to provide, subtitle's search provider videopath, since some providers can use this path to detect subtitles in sync. This can be used if we want to download subtitles for entirely different video
    * added toggle source title(search expression)(blue button)
 
  * improved "SUBSSEARCH" screen:
