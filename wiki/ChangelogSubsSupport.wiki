@@ -23,7 +23,7 @@
 
  * improved "SUBSSEARCHSETTINGS" options:
    * added Preferred movie provider - movie provider which will be automatically selected for movie titles in SUBSEARCHPARAMS screen and on auto search
-   * added Preferred tv show provider - tvshow provider which will be automatically selected for tv- show titles in SUBSEARCHPARAMS screen and on auto search
+   * added Preferred tv show provider - tv show provider which will be automatically selected for tv show titles in SUBSEARCHPARAMS screen and on auto search
    * added Save as - we can define how do we want to name downloaded subtitles file
    * added Save to - we can define where do we want to download subtitles
    * added Append subtitle's language to filename - append/not language to subtitles filename
