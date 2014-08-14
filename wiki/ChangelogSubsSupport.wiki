@@ -6,6 +6,10 @@
    * search is now stoppable, so performance of enigma2 will be not affected after subtitles search exit
    * all search restrictions during search are removed
 
+ * translations
+   * slovak translation updated
+   * czech translation needs update(feel free to contribute :))
+
  * improved "UPDATE SEARCH PARAMS" screen:
    * added simple history list of previously searched subtitles, while on title entry(red button)
    * added suggestions list(opensubtitles suggestions), while on title entry(green button)
