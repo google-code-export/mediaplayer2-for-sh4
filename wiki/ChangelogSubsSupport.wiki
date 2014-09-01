@@ -3,8 +3,7 @@
 == main ==
  * added option to stop video on opening subtitles menu(default)
  * subtitles bigger then 400KB are not processed
-  * This prevents from reading non-subtitles files and binary
-    subtitles files(vobsub) which are not supported
+  * This prevents from reading non-subtitles files and binary subtitles files(vobsub) which are not supported
  * updated slovak locales
  * updated czech locales by Vladimir Kuzba
  
