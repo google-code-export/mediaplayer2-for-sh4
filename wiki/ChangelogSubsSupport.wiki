@@ -1,3 +1,20 @@
+= v1.4.2 =
+
+== main ==
+ * added option to stop video on opening subtitles menu(default)
+ * subtitles bigger then 400KB are not processed
+  * This prevents from reading non-subtitles files and binary
+    subtitles files(vobsub) which are not supported
+ * updated slovak locales
+ * updated czech locales by Vladimir Kuzba
+ 
+== search ==
+ * added Itasa provider (Italian subtitles)
+ * added SubtitlesGR provider (Greek subtitles)
+ * added missing default languages to LanguageSelection screen
+ * fixed GS when provider is temporary unavailable
+ * fixed unpacking of nested subtitles in archives/subdirectories
+
 = v1.4.0 =
 
 == search ==
