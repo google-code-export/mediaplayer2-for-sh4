@@ -10,7 +10,7 @@
 == search ==
  * added Itasa provider (Italian subtitles)
  * added SubtitlesGR provider (Greek subtitles)
- * added missing default languages to LanguageSelection screen
+ * added missing default languages to Language-Selection screen
  * fixed GS when provider is temporary unavailable
  * fixed unpacking of nested subtitles in archives/subdirectories
 
