@@ -1,0 +1,43 @@
+= Downloads =
+
+== Mediaplayer2 ==
+
+*v0.55* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.55_20140403_all.ipk download] [Changelog#v0.55 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.55/view/statistics stats] (*subsupport necessary*)
+
+*v0.54* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.55_20140403_all.ipk download] [Changelog#v0.54 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.54/view/statistics stats]
+
+*v0.50* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.50_20140215_all.ipk download] [Changelog#v0.50 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.50/view/statistics stats]
+
+*v0.46* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.46_20140205_all.ipk download] [Changelog#v0.46 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.46/view/statistics stats]
+
+*v0.45* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.45_20140204_all.ipk download] [Changelog#v0.45 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.45/view/statistics stats]
+
+*v0.41* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.41_20140201_all.ipk download] [Changelog#v0.41 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.41/view/statistics stats]
+
+*v0.40* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.40_20140130_all.ipk download] [Changelog#v0.40 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.40/view/statistics stats]
+
+*v0.38* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.38_all.ipk download] [Changelog#v0.38 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.38/view/statistics stats]
+
+*v0.35* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-mediaplayer2_0.35_all.ipk download] [Changelog#v0.35 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.35/view/statistics stats]
+
+*v0.35ab* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-mediaplayer2ab_0.35_all.ipk download] [Changelog#v0.35ab changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/0.35ab/view/statistics stats]
+
+
+== EMC + SubsSupport ==
+
+*v1* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-enhancedmoviecenter_git+888+b459bbc-r1_mips32el.ipk download] (*subssupport necessary*)
+
+
+== SubsSupport ==
+
+*subssupport v1.4.2* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.4.2_20140901_all.ipk download] [ChangelogSubsSupport changelog]
+
+*subssupport v1.4.0* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.4.0_20140814_all.ipk download] [ChangelogSubsSupport changelog]
+
+*subssupport v1.3.1* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.3.1_20140614_all.ipk download] [ChangelogSubsSupport changelog]
+
+*subssupport v1.3.0* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.3.0_20140610_all.ipk download] [ChangelogSubsSupport changelog]
+
+*subssupport v1.2.5* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.2.5_20140530_all.ipk download] [ChangelogSubsSupport changelog]
+
+*subssupport v1.2.0* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.2.0_20140407_all.ipk download] [ChangelogSubsSupport changelog]
