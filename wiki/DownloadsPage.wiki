@@ -1,5 +1,3 @@
-= Downloads =
-
 == Mediaplayer2 ==
 
 *v0.55* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.55_20140403_all.ipk download] [Changelog#v0.55 changelog] [https://bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2/v0.55/view/statistics stats] (*subsupport necessary*)
