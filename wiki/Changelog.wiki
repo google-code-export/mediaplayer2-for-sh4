@@ -1,7 +1,7 @@
 = v0.56 =
 
  * new feature(experimental) - cuesheets enabled for servicemp3(gstreamer/ffmpeg) service
-    * custom marks - we can (un)mark(*[0]*) any position in video and go to this position by pressing *[>]* and *[<]* buttons.
+    * custom marks - we can (un)mark(*[\0]*) any position in video and go to this position by pressing *[>]* and *[<]* buttons.
     * last mark - we can adjust in mp2 settings if we want to auto-create last mark on currently unfinished video file
     * resume from last position - resume video from last mark marked position
     * cuesheets for servicemp3 are saved in one place so no more, cuesheet files across your filesystem
