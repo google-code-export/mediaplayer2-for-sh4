@@ -1,8 +1,8 @@
 = v1.4.4 = 
 == main ==
-  * renamed external block renderer to "Block (old)"
+  * renamed external subtitles block renderer to "Block (old)"
     * this renderer is not default anymore and will be deprecated it's still there for compatibility reasons
-  * added new block renderer for external subtitles "Block (new)"
+  * added new external subtitles block renderer "Block (new)"
     * added posibility to show background around subtitles
       * dynamic background - dynamically computed background that is as big as subtitles text(default)
         * background offsets - if background is too close/far to/from text we can adjust it by providing offset values
