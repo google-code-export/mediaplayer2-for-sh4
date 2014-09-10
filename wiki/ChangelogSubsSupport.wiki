@@ -1,3 +1,26 @@
+= v1.4.4 = 
+== main ==
+  * renamed external block renderer to "Block (old)"
+    * this renderer is not default anymore and will be deprecated
+      it's still there for compatibility reasons
+  * added new block renderer for external subtitles "Block (new)"
+    * added posibility to show background around subtitles
+      * dynamic background - dynamically computed background that is as big as subtitles text(default)
+        * background offsets - if background is too close/far to/from text we can adjust it by providing offset values
+      * static background - static background which is computed to fit 4
+    rows of subtitles with specified font(further improvements will follow)
+      * transparency - we can set transparency of background
+      * color - we can set color of background
+    * this renderer is now default for external subtitles
+  * add new feature to all external subtitles renderers
+   * toggle on/off shadow
+   * added subtitles transparency support
+  * show units to all options in external/internal subtitles setup
+  * updated slovak locales
+
+== search ==
+ * don't show duplicit languages in subtitles search window
+
 = v1.4.3 = 
 == search ==
  * fixed GS on search start, when provider's libraries are missing
