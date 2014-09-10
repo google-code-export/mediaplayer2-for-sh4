@@ -6,8 +6,7 @@
     * added posibility to show background around subtitles
       * dynamic background - dynamically computed background that is as big as subtitles text(default)
         * background offsets - if background is too close/far to/from text we can adjust it by providing offset values
-      * static background - static background which is computed to fit 4
-    rows of subtitles with specified font(further improvements will follow)
+      * static background - static background which is computed to fit 4 rows of subtitles with specified font(further improvements will follow)
       * transparency - we can set transparency of background
       * color - we can set color of background
     * this renderer is now default for external subtitles
