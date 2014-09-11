@@ -1,3 +1,7 @@
+= v1.4.5 = 
+== main ==
+  * fix GS when "Block (new)" renderer is used on non-openpli based images
+
 = v1.4.4 = 
 == main ==
   * renamed external subtitles block renderer to "Block (old)"
