@@ -14,7 +14,7 @@
     * provider can have enabled, disabled and error state
     * providers text is colored according to its state
     * when OK button is pressed on provider with error state, message with more details is now shown
- * fixed behavior of subtitles search list when country flag for subtitles in list is not available
+ * fixed behavior of subtitle's search list when country flag for subtitles in list is not available
 
 = v1.4.6 =
 == main ==
