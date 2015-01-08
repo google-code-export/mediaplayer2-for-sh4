@@ -1,3 +1,21 @@
+= v1.4.7 =
+== main ==
+  * improved MicroDVD parser
+    * added font style tags support
+    * added color tags support
+  * subtitles delay change is now visible immediately
+  * fixed update subtitles position routine after seeking back
+  * fixed GS when invalid subtitles url is provided
+
+== search ==
+ * improved handling of broken subtitles providers
+  * added info message when some providers are not working
+  * all available providers are now shown in search settings
+    * provider can have enabled, disabled and error state
+    * providers text is colored according to its state
+    * when OK button is pressed on provider with error state, message with more details is now shown
+ * fixed behavior of subtitles search list when country flag for subtitles in list is not available
+
 = v1.4.6 =
 == main ==
   * fix GS when rendering subtitles with color
