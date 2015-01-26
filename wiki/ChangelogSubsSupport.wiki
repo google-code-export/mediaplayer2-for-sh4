@@ -1,6 +1,6 @@
 = v1.4.8 =
 == main ==
-  * improved SubRip parser
+  * improved Subrip parser
     * better performance
     * more tolerant
   * fixed background calculation for text with preceding/trailing spaces
