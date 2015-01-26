@@ -1,3 +1,10 @@
+= v1.4.8 =
+== main ==
+  * improved SubRip parser
+    * better performance
+    * more tolerant
+  * fixed background calculation for text with preceding/trailing spaces
+
 = v1.4.7 =
 == main ==
   * improved MicroDVD parser
