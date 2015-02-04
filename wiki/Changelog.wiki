@@ -4,7 +4,7 @@
  * allow open plugins from extensions menu (blue button)
    * Now it's possible to open any plugin which is added to extensions menu, while in mediaplayer2
  * added possibility to change media-framework when available - by Micky GMouse
-   * you can switch between eplayer3/gstreamer in settings if you're using enigma2 which supports it
+   * you can switch between eplayer3/gstreamer in settings if you're using image which supports it
  * updated Polish translations - by Micky GMouse
  * make play/pause work consistently across images - issue#46
 
