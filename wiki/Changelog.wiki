@@ -1,5 +1,14 @@
-= v0.56 =
+= v0.57 =
+ * don't interfere with standard mediaplayer
+   * We were intentionally removing standard mediaplayer from main menu and replacing it with mediaplayer2 if setting "replace default mediaplayer in main menu" was enabled. Better way is to only add option to just show mediaplayer in main menu without removal of standard mediaplayer from it. Standard mediaplayer has its own setting to be removed or shown in main menu, so no need to do this from other plugin.
+ * allow open plugins from extensions menu (blue button)
+   * Now it's possible to open any plugin which is added to extensions menu, while in mediaplayer2
+ * added possibility to change media-framework when available - by Micky GMouse
+   * you can switch between eplayer3/gstreamer in settings if you're using enigma2 which supports it
+ * updated Polish translations - by Micky GMouse
+ * make play/pause work consistently across images - issue#46
 
+= v0.56 =
  * new feature(experimental) - cuesheets enabled for servicemp3(gstreamer/ffmpeg) service
     * custom marks - we can (un)mark(*[\0]*) any position in video and go to this position by pressing *[>]* and *[<]* buttons.
     * last mark - we can adjust in mp2 settings if we want to auto-create last mark when stopping/exiting unfinished video file
