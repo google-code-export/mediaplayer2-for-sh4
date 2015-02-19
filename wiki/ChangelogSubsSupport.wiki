@@ -1,9 +1,7 @@
 = v1.5.0 =
 == main ==
   * added subssupport downloader plugin
-      * now you can search and download subtitles without opening
-        mediaplayer, by opening downloader from Plugins or Extensions
-        menu(blue button)
+      * now you can search and download subtitles without opening mediaplayer, by opening downloader from Plugins or Extensions menu(blue button)
   * attempt to fix compatibility with DMM images
   * updated slovak locales
   * main menu screen
