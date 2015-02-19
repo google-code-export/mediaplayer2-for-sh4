@@ -30,8 +30,7 @@
       * first entry represents default action created by "search settings"
         * same action as pressing "ok" button on subtitle in subtitles list
       * possible options
-        * Download (user defined) - downloads subtitle to predefined downloads
-    directory
+        * Download (user defined) - downloads subtitle to predefined downloads directory
         * Download (next to video) - downloads subtitle next to video
         * Download (more ...) - shows more download options
           * customize download directory
