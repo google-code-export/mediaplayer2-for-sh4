@@ -25,7 +25,7 @@
       * exit - closes subtitle search
       * ok - stops search, and shows all found subtitles up to stop
       * other actions are disabled since it make no sense to change settings, or update search params while searching, performance is also decreased
-    * menu actions in bottom menu are disabled also visually
+    * menu actions in bottom menu are enabled/disabled also visually
     * added context menu (menu button)
       * first entry represents default action created by "search settings"
         * same action as pressing "ok" button on subtitle in subtitles list
