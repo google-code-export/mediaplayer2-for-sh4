@@ -39,6 +39,7 @@
     * added "History" option (yellow button)
       * opens download history
     * "Settings" option is moved from yellow to blue button
+    * renamed "Update search params" to "Update"
     
   * search settings screen
     * added "Load subtitles after download" option
