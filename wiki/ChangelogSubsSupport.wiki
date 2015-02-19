@@ -46,8 +46,7 @@
       * when turned off subtitles will be not loaded and you will remain in subtitle's search list, with possibility to download more subtitles
     * added "Save downloaded subtitles to history"
     * added "Load/Save download history directory"
-      * select directory from where the download history will be stored and
-          loaded
+      * select directory from where the download history will be stored and loaded
     * removed "Always ask where to download subtitles" option
       * this option is no longer neccessary, its fully replaced by "Download (more...)" option from context menu
     * fixed typos
