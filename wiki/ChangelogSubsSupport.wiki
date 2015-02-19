@@ -1,3 +1,59 @@
+= v1.5.0 =
+== main ==
+  * added SubsSupport downloader plugin
+      * now you can search and download subtitles without opening
+        MediaPlayer, by opening downloader from Plugins or Extensions
+        menu(blue button)
+  * attempt to fix compatibility with DMM images
+  * updated slovak locales
+  * main menu screen
+    * added "Search Subtitles" option for more direct reach
+  * choose subtitles screen
+    * removed "Search Subtitles" option
+    * added "Choose from download history" option (yellow button)
+
+== search ==
+  * added download history
+    * shows list of all downloaded subtitles (if download history is enabled)
+    * possibility to select and open downloaded subtitle (ok button)
+    * possibility to remove downloaded subtitle from list/filesystem (red button)
+    * downloaded subtitles in current search session are marked(green)
+    * subtitles removed from filesystem are auto-removed also from the list
+    * download history is limited (default=50 entries) when limit is reached then oldest entry is removed
+    
+  * search subtitles screen
+    * search progress message now also shows count of found subtitles
+    * while search is active only "exit" and "ok" buttons are enabled
+      * exit - closes subtitle search
+      * ok - stops search, and shows all found subtitles up to stop
+      * other actions are disabled since it make no sense to change settings, or update search params while searching, performance is also decreased
+    * menu actions in bottom menu are disabled also visually
+    * added context menu (menu button)
+      * first entry represents default action created by "search settings" its same action as pressing "ok" button on subtitle in subtitles list
+      * possible options
+        * Download (user defined) - downloads subtitle to predefined downloads
+    directory
+        * Download (next to video) - downloads subtitle next to video
+        * Download (more ...) - shows more download options
+          * customize download directory
+          * customize filename
+        * Download and Load ... - same as Download but also opens(loads) subtitles
+    * added "History" option (yellow button)
+      * opens download history
+    * "Settings" option is moved from yellow to blue button
+    
+  * search settings screen
+    * added "Load subtitles after download" option
+      * when turned off subtitles will be not loaded and you will remain in subtitle's search list, with possibility to download more subtitles
+    * added "Save downloaded subtitles to history"
+    * added "Load/Save download history directory"
+      * select directory from where the download history will be stored and
+          loaded
+    * removed "Always ask where to download subtitles" option
+      * this option is no longer neccessary, its fully replaced by "Download (more...)" option from context menu
+    * fixed typos
+
+
 = v1.4.9 =
 == main ==
   * updated polish translations by Mickey GMouse
