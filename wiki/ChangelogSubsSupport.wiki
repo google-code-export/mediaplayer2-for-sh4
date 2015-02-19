@@ -29,7 +29,8 @@
       * other actions are disabled since it make no sense to change settings, or update search params while searching, performance is also decreased
     * menu actions in bottom menu are disabled also visually
     * added context menu (menu button)
-      * first entry represents default action created by "search settings" its same action as pressing "ok" button on subtitle in subtitles list
+      * first entry represents default action created by "search settings"
+        * same action as pressing "ok" button on subtitle in subtitles list
       * possible options
         * Download (user defined) - downloads subtitle to predefined downloads
     directory
