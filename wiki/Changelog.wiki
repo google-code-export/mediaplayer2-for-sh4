@@ -1,3 +1,6 @@
+= v0.58 =
+ * fixed GS on "Add files to playlist" instroduced by 0.57 version issue#66
+
 = v0.57 =
  * don't interfere with standard mediaplayer
    * We were intentionally removing standard mediaplayer from main menu and replacing it with mediaplayer2 if setting "replace default mediaplayer in main menu" was enabled. Better way is to only add option to just show mediaplayer in main menu without removal of standard mediaplayer from it. Standard mediaplayer has its own setting to be removed or shown in main menu, so no need to do this from other plugin.
