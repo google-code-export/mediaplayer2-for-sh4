@@ -32,7 +32,7 @@
 ----
 == subssupport ==
 
-*subssupport v1.5.0* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.5.0_20150219_all.ipk download] [ChangelogSubsSupport changelog]
+*subssupport v1.5.0* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.5.0_20150304_all.ipk download] [ChangelogSubsSupport changelog]
 
 *subssupport v1.4.9* [http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-subssupport_1.4.9_20150204_all.ipk download] [ChangelogSubsSupport changelog]
 
