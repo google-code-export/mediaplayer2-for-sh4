@@ -4,6 +4,7 @@
       * now you can search and download subtitles without opening mediaplayer
       * added to Plugins and Extensions menu (blue button)
   * attempt to fix compatibility with DMM images
+  * fixed GS when loading subtitles with diacritics in filename
   * updated slovak locales
   * main menu screen
     * added "Search Subtitles" option for more direct reach
@@ -21,13 +22,15 @@
     * download history is limited (default=50 entries) when limit is reached then oldest entry is removed
     
   * search subtitles screen
+    * fixed downloading subtitles with diacritics in filename
+    * fixed serbian country code, serbian flag is now shown
     * search progress message now also shows count of found subtitles
     * while search is active only "exit" and "ok" buttons are enabled
       * exit - closes subtitle search
       * ok - stops search, and shows all found subtitles up to stop
       * other actions are disabled since it make no sense to change settings, or update search params while searching, performance is also decreased
     * menu actions in bottom menu are enabled/disabled also visually
-    * added context menu (menu button)
+    * added context menu * fixed option "Always ask before overwriting existing subtitles"(menu button)
       * first entry represents default action created by "search settings"
         * same action as pressing "ok" button on subtitle in subtitles list
       * possible options
@@ -43,6 +46,8 @@
     * renamed "Update search params" to "Update"
     
   * search settings screen
+    * fixed option "Always ask before overwriting existing subtitles"
+      * was still asking for overwriting, when this option was turned off
     * added "Load subtitles after download" option
       * when turned off subtitles will be not loaded and you will remain in subtitle's search list, with possibility to download more subtitles
     * added "Save downloaded subtitles to history"
