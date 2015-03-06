@@ -1,5 +1,6 @@
 = v0.58 =
- * fixed GS on "Add files to playlist" instroduced by 0.57 version issue#66
+ * fixed GS on "Add files to playlist" introduced by 0.57 version issue#66
+ * fixed GS on DMM merlin images, issue#71
 
 = v0.57 =
  * don't interfere with standard mediaplayer
